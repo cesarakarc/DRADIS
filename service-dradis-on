@@ -1,0 +1,7 @@
+#! /bin/bash
+
+echo "Inicializando Dradis"
+cd /root/dradis-ce
+rails server -d 
+echo " Servidor Dradis Activo"
+

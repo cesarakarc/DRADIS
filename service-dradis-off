@@ -1,0 +1,10 @@
+#! /bin/bash -x
+
+echo "Parando Dradis"
+V=`exec pidof ruby2.3` 
+echo $V
+kill  $V
+echo "Dradis Server Parado"
+
+ 
+
